@@ -1,0 +1,15 @@
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\MainWindow.g.cs
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\App.g.cs
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\Lab5_MarkupCompile.cache
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\Lab5_MarkupCompile.lref
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\MainWindow.baml
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\Lab5.g.resources
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Users\inteXPC\Desktop\Aplikacje dot NET\Lab5\Lab5\obj\Debug\Lab5.pdb
