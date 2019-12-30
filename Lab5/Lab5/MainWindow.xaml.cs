@@ -28,7 +28,6 @@ namespace Lab5
         }
         private void Serialize(object sender, RoutedEventArgs e)
         {
-            //get data from form
             string firstName = tbox_first_name.Text.ToString();
             string lastName = tbox_last_name.Text.ToString();
             string email = tbox_email.Text.ToString();
@@ -77,15 +76,15 @@ namespace Lab5
             }
             catch (FileNotFoundException)
             {
-                tbox_message.Text = "File not found";
+                tbox_message.Text = "Brak pliku o podanej nazwie";
             }
             catch (Exception)
             {
-                tbox_message.Text = "Fail";
+                tbox_message.Text = "Błąd";
             }
         }
 
-        private void tbox_path_TextChanged(object sender, TextChangedEventArgs e)
+        private void Tbox_path_TextChanged(object sender, TextChangedEventArgs e)
         {
             string value = ((TextBox)sender).Text.ToString().Trim();
             if (value.Length == 0) ((TextBox)sender).Text = "user.xml";

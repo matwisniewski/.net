@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<User xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FirstName>Mateusz</FirstName>
+  <LastName>Wiśniewski</LastName>
+  <Email>1b13wisniewski@gmail.com</Email>
+  <City>Gliwice</City>
+  <Street>Kaszubska</Street>
+  <HouseNumber>23</HouseNumber>
+  <FlatNumber>111</FlatNumber>
+</User>

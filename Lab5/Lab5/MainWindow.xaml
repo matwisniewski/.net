@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab5"
         mc:Ignorable="d"
-        Title="Mateusz Wiśniewski Serializacja" Height="405.469" Width="358.203">
+        Title="Mateusz Wiśniewski Serializacja" Height="405.469" Width="400">
     <Grid>
         <StackPanel Margin="10,10,10,10" Grid.ColumnSpan="2">
             <TextBlock Text="Imię" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="85" FontSize="10"/>
@@ -40,13 +40,12 @@
                 <TextBlock Margin="8px 0 0 0" Grid.Row="0" Grid.Column="1" Text="Numer mieszkania" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="85" FontSize="10"/>
                 <TextBox Margin="8px 0 0 0" Grid.Row="1" Grid.Column="1" x:Name="tbox_flat_number" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" />
             </Grid>
-
-            <TextBlock Text="Nazwa pliku" TextWrapping="Wrap" HorizontalAlignment="Left" Width="85" FontSize="10" Grid.ColumnSpan="2" Height="13" VerticalAlignment="Bottom"/>
-            <TextBox Margin="0 0 0 8px" x:Name="tbox_path" Text="user.xml" TextWrapping="Wrap" FontSize="14" Grid.ColumnSpan="2" Height="21" VerticalAlignment="Top" TextChanged="tbox_path_TextChanged"/>
+            <TextBlock Text="Nazwa pliku" TextWrapping="Wrap" HorizontalAlignment="Left" Width="85" FontSize="10" Height="13" VerticalAlignment="Bottom"/>
+            <TextBox Margin="0 0 0 8px" x:Name="tbox_path" Text="user.xml" TextWrapping="Wrap" FontSize="14" Height="21" VerticalAlignment="Top" TextChanged="Tbox_path_TextChanged"/>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button Grid.Column="0" Margin="0 0 8 0" Content="Serializuj" Click="Serialize" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="100" />
-                <Button Grid.Column="1" Content="Deserializuj" Click="Deserialize" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="100" />
+                <Button Margin="0 0 8 0" Content="Serializuj" Click="Serialize" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="182" />
+                <Button Content="Deserializuj" Click="Deserialize" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="182" />
             </StackPanel>
 
             <TextBlock x:Name="tbox_message" Text="" TextWrapping="Wrap"/>
