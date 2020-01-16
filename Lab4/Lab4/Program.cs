@@ -28,9 +28,9 @@ namespace Lab4
         {
 
             Aartist myArtists = new Aartist();
-            Console.WriteLine("Wyświelatnie za pomocą reader");
+            Console.WriteLine("Tryb połączeniowy");
             myArtists.ShowAllArtistsWithReader();
-            Console.WriteLine("Wyświelatnie za pomocą reader i adapter");
+            Console.WriteLine("Trym bezpołączeniowy");
             myArtists.ShowAllArtistsWithAdapter();
             Console.ReadLine();
         }
